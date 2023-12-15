@@ -6,7 +6,7 @@ import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
 const emailTemplateId = "template_h6q0jco"; // Replace with your ID
-const serviceId = "ADxDqX03laTXzRnzZ"; // Replace with your ID
+const serviceId = "service_sr7xrer"; // Replace with your ID
 const toEmail = "code.faisal.dev@gmail.com"; // Replace with your recipient email
 
 
@@ -96,7 +96,7 @@ export function ContactSection() {
               <Input
                 type="email"
                 placeholder="name@mail.com"
-                className="border p-4 rounded-xl mt-2"
+                className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
@@ -105,7 +105,7 @@ export function ContactSection() {
               <Input
                 type="text"
                 placeholder="I am Looking For..."
-                className="border p-4 pb-10 rounded-xl mt-2 mb-2"
+                className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
