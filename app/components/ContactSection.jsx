@@ -92,6 +92,7 @@ export function ContactSection() {
                 <h1 className="-mb-3">Name</h1>
                 <Input
                   input="text"
+                  name="name"
                   placeholder="Your name"
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                   labelProps={{
@@ -101,6 +102,7 @@ export function ContactSection() {
                 <h1 className="-mb-3 mt-7">Email</h1>
                 <Input
                   type="email"
+                  name="email"
                   placeholder="name@mail.com"
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                   labelProps={{
@@ -110,6 +112,7 @@ export function ContactSection() {
                 <h1 className="-mb-3 mt-7">Message</h1>
                 <Input
                   type="text"
+                  name="message"
                   placeholder="I am Looking For..."
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                   labelProps={{
