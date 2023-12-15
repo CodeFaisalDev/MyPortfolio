@@ -4,18 +4,22 @@ import { Button, Card, Input } from "@material-tailwind/react";
 import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import { useEffect } from "react";
 
 const emailTemplateId = "template_h6q0jco"; // Replace with your ID
 const serviceId = "service_sr7xrer"; // Replace with your ID
 const toEmail = "code.faisal.dev@gmail.com"; // Replace with your recipient email
 
+
 export function ContactSection() {
+  useEffect(() => emailjs.init("ADxDqX03laTXzRnzZ"), []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = {
       name: e.target.elements.name.value,
-      email: e.target.elements.email.value,
+      recipient: e.target.elements.email.value,
       message: e.target.elements.message.value,
     };
 
