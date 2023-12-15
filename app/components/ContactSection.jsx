@@ -90,37 +90,28 @@ export function ContactSection() {
             >
               <div className="mb-1 flex flex-col gap-6">
                 <h1 className="-mb-3">Name</h1>
-                <Input
-                  input="text"
+                <input
+                  type="text"
                   name="name"
                   placeholder="Your name"
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
                 />
                 <h1 className="-mb-3 mt-7">Email</h1>
-                <Input
+                <input
                   type="email"
                   name="email"
                   placeholder="name@mail.com"
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
                 />
                 <h1 className="-mb-3 mt-7">Message</h1>
-                <Input
+                <input
                   type="text"
                   name="message"
                   placeholder="I am Looking For..."
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
                 />
 
-                <Input
+                <input
                   type="submit"
                   value="Submit"
                   className="border mt-10 scale-100 hover:scale-105 transition duration-300 ease-in-out border-none px-3 inline-block py-2 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white"
