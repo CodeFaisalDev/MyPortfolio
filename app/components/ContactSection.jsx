@@ -47,7 +47,7 @@ export function ContactSection() {
                 className="p-2"
             >
                 <div>
-                    <Image src="/images/Fiver.png" width={50} height={50}/>
+                    <Image src="/images/Fiver.png" alt="fiver" width={50} height={50}/>
                 </div>
             </Link>
 
@@ -56,7 +56,7 @@ export function ContactSection() {
                 className="p-2"
             >
                 <div>
-                    <Image src="/images/upwork.png" width={50} height={50}/>
+                    <Image src="/images/upwork.png" alt="upwork" width={50} height={50}/>
                 </div>
             </Link>
 
@@ -65,7 +65,7 @@ export function ContactSection() {
                 className="p-2"
             >
                 <div>
-                    <Image src="/images/linkedin.png" width={50} height={50}/>
+                    <Image src="/images/linkedin.png" alt="linkedin" width={50} height={50}/>
                 </div>
             </Link>
           </div>

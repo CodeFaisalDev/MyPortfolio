@@ -8,7 +8,6 @@ import {
   BuildingStorefrontIcon,
   FingerPrintIcon,
   CircleStackIcon,
-  ChevronDoubleDownIcon,
 } from "@heroicons/react/24/outline";
 import {
   TypeSkillSectionName1,
@@ -75,7 +74,7 @@ function SkillsSection() {
     if (mediaQuery.matches) {
       toggleDescription(features[0].name);
     }
-  }, []);
+  }, [toggleDescription]);
 
   return (
     <section id="skills">
