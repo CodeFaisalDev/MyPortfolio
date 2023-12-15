@@ -103,7 +103,7 @@ export function ContactSection() {
                 <h1 className="-mb-3 mt-7">Email</h1>
                 <input
                   type="email"
-                  name="email"
+                  name="recipient"
                   placeholder="name@mail.com"
                   className="border pr-2 p-4 rounded-xl mt-2 scale-100 hover:scale-105 transition duration-300 ease-in-out"
                 />
