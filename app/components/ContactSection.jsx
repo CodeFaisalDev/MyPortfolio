@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, Input,  } from "@material-tailwind/react";
+import { Button, Card, Input,  } from "@material-tailwind/react";
 import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
@@ -112,14 +112,11 @@ export function ContactSection() {
               />
             </div>
             <div className="mt-20">
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Submit
-              </span>
-            </Link>
+  
+            <Input
+            type="submit" value="Submit"
+              className="border border-none px-3 inline-block py-2 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
+            />
             </div>
             
           </form>
